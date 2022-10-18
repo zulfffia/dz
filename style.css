@@ -1,0 +1,26 @@
+body {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.buttons {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 180px;
+    height: 60px;
+    background-color: crimson;
+    font-size: 25px;
+    border:none;
+    border-radius: 15px;
+    transition: all 0.5s;
+
+}
+.button:hover {
+    transform: scale(1.1.);
+    background-color:white;
+}
